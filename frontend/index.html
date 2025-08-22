@@ -4,73 +4,95 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workitu SEO & Social Media Manager</title>
-    <meta name="description" content="Professional SEO and Social Media Management System for Workitu Tech products" />
-    <meta name="keywords" content="SEO, social media, marketing, automation, Workitu" />
-    <meta name="author" content="Workitu Tech" />
-
-    <!-- Preconnect to improve performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Workitu SEO & Social Media Management System</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+  <body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+      <!-- Header -->
+      <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">
+          🚀 Workitu
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-600 mb-2">
+          SEO & Social Media Management System
+        </p>
+        <p class="text-lg text-gray-500">
+          Complete Business Platform for Revenue Growth
+        </p>
+      </header>
 
-    <!-- Loading spinner -->
-    <div id="loading-spinner" style="
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-      color: white;
-      font-family: 'Inter', sans-serif;
-    ">
-      <div style="text-align: center;">
-        <div style="
-          width: 50px;
-          height: 50px;
-          border: 4px solid rgba(255,255,255,0.3);
-          border-top: 4px solid white;
-          border-radius: 50%;
-          animation: spin 1s linear infinite;
-          margin: 0 auto 20px;
-        "></div>
-        <h2 style="margin: 0; font-weight: 600;">Workitu SEO Manager</h2>
-        <p style="margin: 10px 0 0 0; opacity: 0.8;">Loading your dashboard...</p>
+      <!-- Features Grid -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        <!-- Affiliate Marketing -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+          <div class="text-3xl mb-4">💰</div>
+          <h3 class="text-xl font-semibold mb-2">Affiliate Marketing</h3>
+          <p class="text-gray-600">Generate and track affiliate links with commission tracking for passive income.</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+          <div class="text-3xl mb-4">📱</div>
+          <h3 class="text-xl font-semibold mb-2">Social Media Management</h3>
+          <p class="text-gray-600">Automated posting across Facebook, Twitter, Instagram, LinkedIn, TikTok, and YouTube.</p>
+        </div>
+
+        <!-- SEO Optimization -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+          <div class="text-3xl mb-4">🔍</div>
+          <h3 class="text-xl font-semibold mb-2">SEO Optimization</h3>
+          <p class="text-gray-600">Web scraping, keyword analysis, and meta tag optimization for better rankings.</p>
+        </div>
+
+        <!-- CRM System -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+          <div class="text-3xl mb-4">👥</div>
+          <h3 class="text-xl font-semibold mb-2">Customer Management</h3>
+          <p class="text-gray-600">Lead scoring, customer lifecycle tracking, and sales pipeline management.</p>
+        </div>
+
+        <!-- Sales Tracking -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+          <div class="text-3xl mb-4">📊</div>
+          <h3 class="text-xl font-semibold mb-2">Sales Tracking</h3>
+          <p class="text-gray-600">Monitor revenue, conversions, and business metrics in real-time.</p>
+        </div>
+
+        <!-- Revenue Intelligence -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
+          <div class="text-3xl mb-4">🧠</div>
+          <h3 class="text-xl font-semibold mb-2">Revenue Intelligence</h3>
+          <p class="text-gray-600">Data-driven insights for profit analysis and business optimization.</p>
+        </div>
       </div>
+
+      <!-- Call to Action -->
+      <div class="text-center bg-white rounded-lg shadow-lg p-8">
+        <h2 class="text-2xl font-bold mb-4">Ready to Maximize Your Business Growth?</h2>
+        <p class="text-gray-600 mb-6">
+          Join thousands of businesses using Workitu to automate marketing, boost SEO, and increase revenue.
+        </p>
+        <div class="space-x-4">
+          <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+            Get Started
+          </button>
+          <button class="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors">
+            Learn More
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="text-center mt-12 text-gray-500">
+        <p>&copy; 2025 Workitu.com - Maximizing Your Business Growth! 🚀💰</p>
+        <p class="mt-2 text-sm">
+          Built with React, Node.js, MongoDB, and Tailwind CSS
+        </p>
+      </footer>
     </div>
 
-    <style>
-      @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-      }
-
-      body {
-        margin: 0;
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-          'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-      }
-
-      #root {
-        min-height: 100vh;
-      }
-    </style>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
 
