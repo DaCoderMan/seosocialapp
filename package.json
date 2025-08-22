@@ -1,0 +1,32 @@
+{
+  "name": "workitu-seo-social",
+  "version": "1.0.0",
+  "description": "Workitu SEO & Social Media Management System - Complete business platform with affiliate marketing, CRM, sales tracking, and revenue intelligence",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "workitu",
+    "seo",
+    "social-media",
+    "affiliate-marketing",
+    "crm",
+    "sales-tracking",
+    "business-platform",
+    "revenue-intelligence"
+  ],
+  "author": "Workitu.com",
+  "license": "proprietary",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
